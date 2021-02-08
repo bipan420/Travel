@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C12187E1B114CB818F67E31 /* Pods_TravelUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F3925A3492CAC575DFC0D4 /* Pods_TravelUI.framework */; };
+		5E2D7D7925CD269600B227DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D7D7825CD269600B227DF /* AppDelegate.swift */; };
+		5E2D7D7B25CD269600B227DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D7D7A25CD269600B227DF /* SceneDelegate.swift */; };
+		5E2D7D8025CD269600B227DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2D7D7E25CD269600B227DF /* Main.storyboard */; };
+		5E2D7D8225CD269700B227DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2D7D8125CD269700B227DF /* Assets.xcassets */; };
+		5E2D7D8525CD269700B227DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2D7D8325CD269700B227DF /* LaunchScreen.storyboard */; };
+		5E2D7D8D25CD270C00B227DF /* TravelUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D7D8C25CD270C00B227DF /* TravelUIViewController.swift */; };
+		5E46D7A325D0397D00507959 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E46D7A225D0397D00507959 /* FormView.swift */; };
+		5EC3C6C625CE3D4000603C89 /* IncrementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3C6C525CE3D4000603C89 /* IncrementView.swift */; };
+		5EC3C6C825CE6A0200603C89 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3C6C725CE6A0200603C89 /* FormViewController.swift */; };
+		5EDD7C9925CFCB56007FBF98 /* CheckInCheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDD7C9825CFCB56007FBF98 /* CheckInCheckoutView.swift */; };
+		5EDD7C9B25CFCBDE007FBF98 /* ApartmentAdultChildrenActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDD7C9A25CFCBDE007FBF98 /* ApartmentAdultChildrenActionView.swift */; };
+		5EDD7C9D25CFCC51007FBF98 /* ChildrenAgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDD7C9C25CFCC51007FBF98 /* ChildrenAgeView.swift */; };
+		5EDD7C9F25CFCC81007FBF98 /* CheckAvailabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDD7C9E25CFCC81007FBF98 /* CheckAvailabilityView.swift */; };
+		5EDD7CA125CFCCD6007FBF98 /* RatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDD7CA025CFCCD6007FBF98 /* RatesView.swift */; };
+		5EDD7CA325CFCD17007FBF98 /* ConfirmButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDD7CA225CFCD17007FBF98 /* ConfirmButtonView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E2D7D7525CD269600B227DF /* TravelUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2D7D7825CD269600B227DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E2D7D7A25CD269600B227DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5E2D7D7F25CD269600B227DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E2D7D8125CD269700B227DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E2D7D8425CD269700B227DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E2D7D8625CD269700B227DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E2D7D8C25CD270C00B227DF /* TravelUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelUIViewController.swift; sourceTree = "<group>"; };
+		5E46D7A225D0397D00507959 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		5EC3C6C525CE3D4000603C89 /* IncrementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementView.swift; sourceTree = "<group>"; };
+		5EC3C6C725CE6A0200603C89 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		5EDD7C9825CFCB56007FBF98 /* CheckInCheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInCheckoutView.swift; sourceTree = "<group>"; };
+		5EDD7C9A25CFCBDE007FBF98 /* ApartmentAdultChildrenActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentAdultChildrenActionView.swift; sourceTree = "<group>"; };
+		5EDD7C9C25CFCC51007FBF98 /* ChildrenAgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenAgeView.swift; sourceTree = "<group>"; };
+		5EDD7C9E25CFCC81007FBF98 /* CheckAvailabilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAvailabilityView.swift; sourceTree = "<group>"; };
+		5EDD7CA025CFCCD6007FBF98 /* RatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesView.swift; sourceTree = "<group>"; };
+		5EDD7CA225CFCD17007FBF98 /* ConfirmButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmButtonView.swift; sourceTree = "<group>"; };
+		65F3925A3492CAC575DFC0D4 /* Pods_TravelUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1FD2C0D935696081D06E670 /* Pods-TravelUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelUI.release.xcconfig"; path = "Target Support Files/Pods-TravelUI/Pods-TravelUI.release.xcconfig"; sourceTree = "<group>"; };
+		D580D56C86222DA57455BEDF /* Pods-TravelUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelUI.debug.xcconfig"; path = "Target Support Files/Pods-TravelUI/Pods-TravelUI.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E2D7D7225CD269600B227DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C12187E1B114CB818F67E31 /* Pods_TravelUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55C10B2EE195AADCD51E41EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65F3925A3492CAC575DFC0D4 /* Pods_TravelUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E2D7D6C25CD269600B227DF = {
+			isa = PBXGroup;
+			children = (
+				5EDD7C9725CFCAEB007FBF98 /* Controllers */,
+				5EC3C6C425CE3D2900603C89 /* Views */,
+				5E2D7D7725CD269600B227DF /* TravelUI */,
+				5E2D7D7625CD269600B227DF /* Products */,
+				D26669CCF770BC7BD6AC087F /* Pods */,
+				55C10B2EE195AADCD51E41EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E2D7D7625CD269600B227DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E2D7D7525CD269600B227DF /* TravelUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E2D7D7725CD269600B227DF /* TravelUI */ = {
+			isa = PBXGroup;
+			children = (
+				5E2D7D7825CD269600B227DF /* AppDelegate.swift */,
+				5E2D7D7A25CD269600B227DF /* SceneDelegate.swift */,
+				5E2D7D7E25CD269600B227DF /* Main.storyboard */,
+				5E2D7D8125CD269700B227DF /* Assets.xcassets */,
+				5E2D7D8325CD269700B227DF /* LaunchScreen.storyboard */,
+				5E2D7D8625CD269700B227DF /* Info.plist */,
+			);
+			path = TravelUI;
+			sourceTree = "<group>";
+		};
+		5E46D7A125D0396300507959 /* FormView */ = {
+			isa = PBXGroup;
+			children = (
+				5E46D7A225D0397D00507959 /* FormView.swift */,
+			);
+			path = FormView;
+			sourceTree = "<group>";
+		};
+		5EC3C6C425CE3D2900603C89 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E46D7A125D0396300507959 /* FormView */,
+				5EDD7CA425D0069F007FBF98 /* TravelUIView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5EDD7C9725CFCAEB007FBF98 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E2D7D8C25CD270C00B227DF /* TravelUIViewController.swift */,
+				5EC3C6C725CE6A0200603C89 /* FormViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5EDD7CA425D0069F007FBF98 /* TravelUIView */ = {
+			isa = PBXGroup;
+			children = (
+				5EC3C6C525CE3D4000603C89 /* IncrementView.swift */,
+				5EDD7C9825CFCB56007FBF98 /* CheckInCheckoutView.swift */,
+				5EDD7C9A25CFCBDE007FBF98 /* ApartmentAdultChildrenActionView.swift */,
+				5EDD7C9C25CFCC51007FBF98 /* ChildrenAgeView.swift */,
+				5EDD7C9E25CFCC81007FBF98 /* CheckAvailabilityView.swift */,
+				5EDD7CA025CFCCD6007FBF98 /* RatesView.swift */,
+				5EDD7CA225CFCD17007FBF98 /* ConfirmButtonView.swift */,
+			);
+			path = TravelUIView;
+			sourceTree = "<group>";
+		};
+		D26669CCF770BC7BD6AC087F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D580D56C86222DA57455BEDF /* Pods-TravelUI.debug.xcconfig */,
+				B1FD2C0D935696081D06E670 /* Pods-TravelUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E2D7D7425CD269600B227DF /* TravelUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E2D7D8925CD269700B227DF /* Build configuration list for PBXNativeTarget "TravelUI" */;
+			buildPhases = (
+				B373C4B8B8ABC891DD3DF973 /* [CP] Check Pods Manifest.lock */,
+				5E2D7D7125CD269600B227DF /* Sources */,
+				5E2D7D7225CD269600B227DF /* Frameworks */,
+				5E2D7D7325CD269600B227DF /* Resources */,
+				2D3D33D68C72D78A2E47CFAB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelUI;
+			productName = TravelUI;
+			productReference = 5E2D7D7525CD269600B227DF /* TravelUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E2D7D6D25CD269600B227DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Bipan Bhatta";
+				TargetAttributes = {
+					5E2D7D7425CD269600B227DF = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 5E2D7D7025CD269600B227DF /* Build configuration list for PBXProject "TravelUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E2D7D6C25CD269600B227DF;
+			productRefGroup = 5E2D7D7625CD269600B227DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E2D7D7425CD269600B227DF /* TravelUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E2D7D7325CD269600B227DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2D7D8525CD269700B227DF /* LaunchScreen.storyboard in Resources */,
+				5E2D7D8225CD269700B227DF /* Assets.xcassets in Resources */,
+				5E2D7D8025CD269600B227DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D3D33D68C72D78A2E47CFAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelUI/Pods-TravelUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelUI/Pods-TravelUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TravelUI/Pods-TravelUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B373C4B8B8ABC891DD3DF973 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TravelUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E2D7D7125CD269600B227DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E46D7A325D0397D00507959 /* FormView.swift in Sources */,
+				5EC3C6C825CE6A0200603C89 /* FormViewController.swift in Sources */,
+				5EDD7C9B25CFCBDE007FBF98 /* ApartmentAdultChildrenActionView.swift in Sources */,
+				5EDD7C9D25CFCC51007FBF98 /* ChildrenAgeView.swift in Sources */,
+				5EDD7CA325CFCD17007FBF98 /* ConfirmButtonView.swift in Sources */,
+				5E2D7D7925CD269600B227DF /* AppDelegate.swift in Sources */,
+				5EDD7C9925CFCB56007FBF98 /* CheckInCheckoutView.swift in Sources */,
+				5EC3C6C625CE3D4000603C89 /* IncrementView.swift in Sources */,
+				5E2D7D8D25CD270C00B227DF /* TravelUIViewController.swift in Sources */,
+				5EDD7CA125CFCCD6007FBF98 /* RatesView.swift in Sources */,
+				5EDD7C9F25CFCC81007FBF98 /* CheckAvailabilityView.swift in Sources */,
+				5E2D7D7B25CD269600B227DF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E2D7D7E25CD269600B227DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E2D7D7F25CD269600B227DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E2D7D8325CD269700B227DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E2D7D8425CD269700B227DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E2D7D8725CD269700B227DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E2D7D8825CD269700B227DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E2D7D8A25CD269700B227DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D580D56C86222DA57455BEDF /* Pods-TravelUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravelUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stainly.TravelUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E2D7D8B25CD269700B227DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1FD2C0D935696081D06E670 /* Pods-TravelUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravelUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stainly.TravelUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E2D7D7025CD269600B227DF /* Build configuration list for PBXProject "TravelUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2D7D8725CD269700B227DF /* Debug */,
+				5E2D7D8825CD269700B227DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E2D7D8925CD269700B227DF /* Build configuration list for PBXNativeTarget "TravelUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2D7D8A25CD269700B227DF /* Debug */,
+				5E2D7D8B25CD269700B227DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E2D7D6D25CD269600B227DF /* Project object */;
+}
