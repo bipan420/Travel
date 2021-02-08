@@ -18,6 +18,7 @@ class FormViewController: UIViewController{
     override func viewDidLoad() {
         view.backgroundColor = .white
         navigationController?.title = "Form View"
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Next", style: .done, target: self, action: #selector(goToReceipt))
         
 //        view.stack(scrollView.stack(formView))
         view.stack(scrollView)
@@ -33,6 +34,11 @@ class FormViewController: UIViewController{
         sv.isScrollEnabled = true
         return sv
     }()
+    
+    @objc func goToReceipt(){
+        let receiptVC = ReceiptViewController()
+        navigationController?.pushViewController(receiptVC, animated: true)
+    }
     
 
 }

@@ -13,6 +13,7 @@ class FormView: UIView {
     var radioPaymentButtons = [UIButton]()
     override init(frame: CGRect) {
         super.init(frame:frame)
+        
         let introTitle = createBoldLabel(text: "Title")
         let titleMr = createLabel(text: "Mr.")
         let titleMrs = createLabel(text: "Mrs.")
@@ -82,6 +83,11 @@ class FormView: UIView {
         
         
         
+        //go to next page
+       
+        
+        
+        
         stack(
             personalInfoLabel,
             hstack(
@@ -107,9 +113,21 @@ class FormView: UIView {
             stack(city).withMargins(UIEdgeInsets(top: 10, left: 0, bottom: 0, right: 0)),
             stack(cityTextField).withMargins(UIEdgeInsets(top: 10, left: 0, bottom: 0, right: 0)),
             stack(smokingPref).withMargins(UIEdgeInsets(top: 10, left: 0, bottom: 0, right: 0)),
-            hstack(hstack(smokingButton,smokingLabel),hstack(nonSmokingButton,nonSmokingLabel)),
-            paymentMethod,
-            hstack(hstack(cashButton,cashLabel),hstack(paymentLinkButton,paymentLinkLabel),hstack(creditCardButton,creditCardLabel))
+//            hstack(
+//                hstack(smokingButton,smokingLabel),
+//                hstack(nonSmokingButton,nonSmokingLabel),spacing: 15),
+            hstack(
+                
+                hstack(smokingButton,smokingLabel),
+                hstack(nonSmokingButton,nonSmokingLabel),
+                UIView(),
+                spacing: 25
+            ).withMargins(UIEdgeInsets(top: 10, left: 0, bottom: 0, right: 0)),
+            
+            stack(paymentMethod).withMargins(UIEdgeInsets(top: 10, left: 0, bottom: 0, right: 0)),
+            hstack(hstack(cashButton,cashLabel),
+                   hstack(paymentLinkButton,paymentLinkLabel),
+                   hstack(creditCardButton,creditCardLabel),spacing: 15).withMargins(UIEdgeInsets(top: 10, left: 0, bottom: 0, right: 0))
         ).withMargins(UIEdgeInsets(top: 12, left: 12, bottom: 0, right: 12))
        
     }
@@ -162,6 +180,8 @@ class FormView: UIView {
         textField.withHeight(40)
         return textField
     }
+    
+    
     
     func createTitleRadioButton(normalImage:String,selectedImage:String) -> UIButton{
         let bt = UIButton()

@@ -69,7 +69,7 @@ class TravelUIViewController: UIViewController{
         ratesView.layer.borderColor = UIColor.black.cgColor
         ratesView.layer.cornerRadius = 10
         
-        confirmButton.layer.cornerRadius = 5
+        confirmButton.layer.cornerRadius = 20
         confirmButton.confirmButton.addTarget(self, action: #selector(confirmPressed), for: .touchUpInside)
         
 //        view.stack(scrollView)

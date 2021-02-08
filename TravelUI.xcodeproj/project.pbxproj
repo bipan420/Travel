@@ -15,6 +15,7 @@
 		5E2D7D8525CD269700B227DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2D7D8325CD269700B227DF /* LaunchScreen.storyboard */; };
 		5E2D7D8D25CD270C00B227DF /* TravelUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D7D8C25CD270C00B227DF /* TravelUIViewController.swift */; };
 		5E46D7A325D0397D00507959 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E46D7A225D0397D00507959 /* FormView.swift */; };
+		5EA1CD9B25D109A300A8D88D /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA1CD9A25D109A300A8D88D /* ReceiptViewController.swift */; };
 		5EC3C6C625CE3D4000603C89 /* IncrementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3C6C525CE3D4000603C89 /* IncrementView.swift */; };
 		5EC3C6C825CE6A0200603C89 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3C6C725CE6A0200603C89 /* FormViewController.swift */; };
 		5EDD7C9925CFCB56007FBF98 /* CheckInCheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDD7C9825CFCB56007FBF98 /* CheckInCheckoutView.swift */; };
@@ -35,6 +36,7 @@
 		5E2D7D8625CD269700B227DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E2D7D8C25CD270C00B227DF /* TravelUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelUIViewController.swift; sourceTree = "<group>"; };
 		5E46D7A225D0397D00507959 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		5EA1CD9A25D109A300A8D88D /* ReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
 		5EC3C6C525CE3D4000603C89 /* IncrementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementView.swift; sourceTree = "<group>"; };
 		5EC3C6C725CE6A0200603C89 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		5EDD7C9825CFCB56007FBF98 /* CheckInCheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInCheckoutView.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			children = (
 				5E2D7D8C25CD270C00B227DF /* TravelUIViewController.swift */,
 				5EC3C6C725CE6A0200603C89 /* FormViewController.swift */,
+				5EA1CD9A25D109A300A8D88D /* ReceiptViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E46D7A325D0397D00507959 /* FormView.swift in Sources */,
+				5EA1CD9B25D109A300A8D88D /* ReceiptViewController.swift in Sources */,
 				5EC3C6C825CE6A0200603C89 /* FormViewController.swift in Sources */,
 				5EDD7C9B25CFCBDE007FBF98 /* ApartmentAdultChildrenActionView.swift in Sources */,
 				5EDD7C9D25CFCC51007FBF98 /* ChildrenAgeView.swift in Sources */,

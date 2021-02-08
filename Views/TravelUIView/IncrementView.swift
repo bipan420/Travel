@@ -16,13 +16,13 @@ class IncrementView: UIView {
     let plusButton = UIButton(title: "+", titleColor: UIColor.rgb(red: 45, green: 101, blue: 173), font: .boldSystemFont(ofSize: 16), backgroundColor: .clear, target: self, action: #selector(addItem))
     
     let valueLabel: UILabel = {
-        let pl = UILabel()
-        pl.textAlignment = .center
-        pl.textColor = .black
-        pl.translatesAutoresizingMaskIntoConstraints = false
-        pl.font = UIFont.boldSystemFont(ofSize: 16)
-        pl.text = "0"
-        return pl
+        let vl = UILabel()
+        vl.textAlignment = .center
+        vl.textColor = .black
+        vl.translatesAutoresizingMaskIntoConstraints = false
+        vl.font = UIFont.boldSystemFont(ofSize: 16)
+        vl.text = "0"
+        return vl
     }()
     
     override init(frame: CGRect) {
